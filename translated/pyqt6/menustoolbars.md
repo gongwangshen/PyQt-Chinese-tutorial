@@ -426,7 +426,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-上面的示例中创建了一个简单的状态栏，只有一个行为，关闭应用。
+上面的示例中创建了一个简单的工具栏，只有一个行为，关闭应用。
 
 ``` python
 exitAct = QAction(QIcon('exit24.png'), 'Exit', self)
